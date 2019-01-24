@@ -1,8 +1,7 @@
 package shuaicj.example.persist.jpa.projection;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import javax.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * The JPA repository for Person.
